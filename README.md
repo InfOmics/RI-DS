@@ -27,7 +27,7 @@ You are free to link or use RI inside source code of your own program. If do so,
 <hr />
 
 ### Citation
-     """Bonnici, V., Giugno, R., Pulvirenti, A., Shasha, D., & Ferro, A. (2013).
+     Bonnici, V., Giugno, R., Pulvirenti, A., Shasha, D., & Ferro, A. (2013).
      A subgraph isomorphism algorithm and its application to biochemical data. 
      BMC bioinformatics, 14(7), S13.
 
