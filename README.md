@@ -18,7 +18,11 @@ Please send us an email to get software sources or datasets (see Contacts).
 <hr />
 
 ### RI
-RI-DS adds the concept of domain to the basic implementation of [RI](https://github.com/GiugnoLab/RI). The RI-DS 3.5.1 version corresponds to the RI 3.6 version.
+RI-DS extends the basic implementation of [RI](https://github.com/GiugnoLab/RI) with the concept of domains. 
+
+The RI-DS 3.5.1 version corresponds to the RI 3.6 version.
+
+<hr />
 
 ### License
 RI is distributed under the MIT license. This means that it is free for both academic and commercial use. Note however that some third party components in RI require that you reference certain works in scientific publications.
