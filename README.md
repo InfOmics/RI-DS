@@ -38,6 +38,14 @@ You are free to link or use RI inside source code of your own program. If do so,
 <hr />
 
 ### References
- if you have used any of the RI project software, please cite the following paper:
+In case you used any of the RI project software, please cite the following paper:
  
 Vincenzo Bonnici, Rosalba Giugno, Alfredo Pulvirenti, Dennis Shasha and Alfredo Ferro. A subgraph isomorphism algorithm and its application to biochemical data. BMC Bioinformatics 2013, 14(Suppl 7):S13 doi:10.1186/1471-2105-14-S7-S13.
+
+<hr />
+
+### Datasets
+A biochemical dataset originally used to evaluate the performance of RI and RI-DS is availiabe at this [repository](https://github.com/GiugnoLab/RI-Datasets).
+
+A further syntetic dataset used to evaluate RI and RI-DS in 2018 is available at the following [repository](https://github.com/GiugnoLab/RI-synthds).
+
