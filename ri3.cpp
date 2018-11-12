@@ -51,6 +51,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include "MatchingMachine.h"
 #include "MaMaConstrFirstDs.h"
 #include "MatchListener.h"
+
+//#define FIRST_MATCH_ONLY  //if setted, the searching process stops at the first found match
 #include "Solver.h"
 #include "SubGISolver.h"
 #include "InducedSubGISolver.h"
