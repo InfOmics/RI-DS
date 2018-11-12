@@ -179,7 +179,9 @@ public:
 				if(si == nof_sn -1){
 					matchListener.match(nof_sn, map_state_to_node, solution);
 					psi = si;
-
+#ifdef FIRST_MATCH_ONLY
+					si = -1;
+#endif
 //					return IF U WANT JUST AN INSTANCE;
 				}
 				else{
