@@ -182,9 +182,9 @@ public:
 		nqueueL = nof_single_domains;
 
 
-		for(int i=0; i<nof_single_domains; i++){
+		/*for(int i=0; i<nof_single_domains; i++){
 			std::cout<<i<<" "<<map_state_to_node[i]<<" "<<map_node_to_state[map_state_to_node[i]]<<"\n";
-		}
+		}*/
 
 
 #ifdef MDEBUG
