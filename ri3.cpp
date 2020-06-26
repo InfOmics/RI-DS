@@ -265,9 +265,10 @@ int match(
 							}
 							domains_size[ii] = dsize;
 
-							std::cout<<"dsize["<<ii<<"]("<<domains_size[ii]<<")\n";
+							/*std::cout<<"dsize["<<ii<<"]("<<domains_size[ii]<<")\n";
 							domains[ii].print_numbers();
 							std::cout<<"\n";
+							*/
 						}
 
 #ifdef MDEBUG
