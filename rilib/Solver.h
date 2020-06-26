@@ -130,7 +130,7 @@ public:
 		int sip1;
 		while(si != -1){
 
-			std::cout<<"si("<<si<<") ["<<map_state_to_node[si]<<"] r["<<map_node_to_state[map_state_to_node[si]]<<"]\n";
+			//std::cout<<"si("<<si<<") ["<<map_state_to_node[si]<<"] r["<<map_node_to_state[map_state_to_node[si]]<<"]\n";
 			//steps++;
 
 			if(psi >= si){
