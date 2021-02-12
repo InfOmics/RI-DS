@@ -675,6 +675,8 @@ int read_egfd(const char* fileName, FILE* fd, Graph* graph){
 			graph->out_adj_list[i][j] = n->nid;
 			graph->out_adj_attrs[i][j] = n->label;
 
+			std::cout<<"@"<<*((std::string*)graph->out_adj_attrs[i][j])<<"\n";
+
 			graph->in_adj_list[n->nid][ink[n->nid]] = i;
 			ink[n->nid]++;
 

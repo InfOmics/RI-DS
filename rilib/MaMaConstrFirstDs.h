@@ -182,9 +182,9 @@ public:
 		nqueueL = nof_single_domains;
 
 
-		for(int i=0; i<nof_single_domains; i++){
+		/*for(int i=0; i<nof_single_domains; i++){
 			std::cout<<i<<" "<<map_state_to_node[i]<<" "<<map_node_to_state[map_state_to_node[i]]<<"\n";
-		}
+		}*/
 
 
 #ifdef MDEBUG
@@ -381,6 +381,9 @@ public:
 #endif
 					edges[si][e_count].source = map_node_to_state[n];
 					edges[si][e_count].target = map_node_to_state[ssg.out_adj_list[n][i]];
+
+					edges[si][e_count].attr = ssg.out_adj_attrs[n][i];
+
 					e_count++;
 				}
 			}
@@ -391,6 +394,16 @@ public:
 #endif
 					edges[si][e_count].target = map_node_to_state[n];
 					edges[si][e_count].source = map_node_to_state[ssg.in_adj_list[n][i]];
+
+					int x = ssg.in_adj_list[n][i];
+					int y = n;
+					for(int xi=0; xi<ssg.out_adj_sizes[x]; xi++){
+						if(ssg.out_adj_list[x][xi] == y){
+							edges[si][e_count].attr = ssg.out_adj_attrs[x][xi];
+							break;
+						}
+					}
+
 					e_count++;
 				}
 			}

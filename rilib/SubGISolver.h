@@ -70,7 +70,12 @@ public:
 
 			for(ii=0; ii<rgraph.out_adj_sizes[rsource]; ii++){
 				if(rgraph.out_adj_list[rsource][ii] == rtarget){
-					if(! edgeComparator.compare(rgraph.out_adj_attrs[rsource][ii],  mama.edges[si][me].attr)){
+					std::cout<<"@(1)"<<*((std::string*)rgraph.out_adj_attrs[rsource][ii])<<"\n";
+					std::cout<<"@(2)"<<*((std::string*)mama.edges[si][me].attr)<<"\n";
+
+					if(! edgeComparator.compare(
+							rgraph.out_adj_attrs[rsource][ii],  
+							mama.edges[si][me].attr)){
 						return false;
 					}
 					else{
