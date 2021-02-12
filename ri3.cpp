@@ -58,7 +58,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include "InducedSubGISolver.h"
 #include "Domains.h"
 
-#define PRINT_MATCHES
+//#define PRINT_MATCHES
 //#define CSV_FORMAT
 
 
